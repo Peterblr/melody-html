@@ -4,6 +4,8 @@
 
 ## Developed by `Piotr Sviryd`
 
+https://peterblr.github.io/melody-html/
+
 ### Technologies:
 - html
 - css
