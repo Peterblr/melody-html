@@ -2,7 +2,7 @@
  
 :floppy_disk:
 
-## Developed by Piotr Sviryd
+## Developed by `Piotr Sviryd`
 
 ### Technologies:
 - html
