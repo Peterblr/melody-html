@@ -1,7 +1,8 @@
 # melody-html -  *training project (italic)*
  
+:floppy_disk:
 
-:computer: ## Developed by Piotr Sviryd
+## Developed by Piotr Sviryd
 
 ### Technologies:
 - html
