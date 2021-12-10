@@ -1,4 +1,5 @@
-# melody-html - training project
+# melody-html -  *training project (italic)*
+ 
 
 ## Developed by Piotr Sviryd
 
