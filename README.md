@@ -3,6 +3,6 @@
 ## Developed by Piotr Sviryd
 
 ### Technologies:
--html
--css
--javascript
+- html
+- css
+- javascript
