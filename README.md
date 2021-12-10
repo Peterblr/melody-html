@@ -4,7 +4,7 @@
 
 ## Developed by `Piotr Sviryd`
 
-https://peterblr.github.io/melody-html/
+[view site](https://peterblr.github.io/melody-html/)
 
 ### Technologies:
 - html
