@@ -4,6 +4,6 @@
 
 ### Technologies:
 
--html;
--css;
+-html
+-css
 -javascript
