@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background: #635854;
+    padding: 12px 12px;
+    border-bottom: 4px solid #3596F5;
+}
+
+.navbar {
+    max-width: 1280px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+
+}
+
+.navlink {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.phone {
+    text-align: end;
+}
+
+.phone-style {
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.phone-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+@media (max-width: 770px) {
+    .navlink {
+        flex-wrap: wrap;
+    }
+
+    .logo img {
+        width: 70%;
+    }
+
+    .link {
+        font-size: 12px;
+    }
+
+    .phone-style {
+        font-size: 12px;
+    }
+
+    .phone-link {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 426px) {
+    .link {
+        border: 1px solid #3595f594;
+    }
+
+    .link {
+        font-size: 10px;
+    }
+
+    .phone-style {
+        font-size: 10px;
+    }
+
+    .phone-link {
+        font-size: 10px;
+    }
+}
