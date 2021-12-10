@@ -1,4 +1,4 @@
-# melody-html -  *training project (italic)*
+# melody-html -  *training project*
  
 :floppy_disk:
 
