@@ -13,7 +13,7 @@ body {
 }
 
 .navbar {
-    max-width: 1280px;
+    max-width: 1440px;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
@@ -49,6 +49,76 @@ body {
     line-height: 20px;
 }
 
+/* ***************************************main */
+
+.main {
+    max-width: 1440px;
+    margin: auto;
+    padding-top: 54px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.house path {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.house path:hover {
+    opacity: 1;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.main-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #635854;
+}
+
+.counter-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+}
+
+.counter-up,
+.counter-down {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.counter-item {
+    color: #635854;
+    font-size: 75px;
+    margin: 35px;
+}
+
+.button-primary {
+    background: #3596F5;
+    border-radius: 6px;
+    padding: 16px 36px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* *****************************************770px */
+
 @media (max-width: 770px) {
     .navlink {
         flex-wrap: wrap;
@@ -70,6 +140,8 @@ body {
         font-size: 12px;
     }
 }
+
+/* ******************************************426px */
 
 @media (max-width: 426px) {
     .link {
