@@ -69,6 +69,10 @@ body {
     opacity: 1;
 }
 
+path.current-floor {
+    opacity: 1;
+}
+
 .main-info {
     display: flex;
     flex-direction: column;
@@ -138,6 +142,14 @@ body {
 
     .phone-link {
         font-size: 12px;
+    }
+
+    .main-image {
+        width: 300px;
+    }
+
+    .main-title {
+        font-size: 27px;
     }
 }
 
